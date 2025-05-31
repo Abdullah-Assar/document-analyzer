@@ -30,7 +30,6 @@
 1. استنساخ المستودع:
    ```bash
    git clone https://github.com/Abdullah-Assar/document-analyzer.git
-   
    cd document-analyzer
    ```
 2. تثبيت التبعيات:
