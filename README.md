@@ -38,11 +38,11 @@
     ```
 3. إعداد متغيرات البيئة:
    قم بإنشاء ملف `.env.local` وأضف المتغيرات التالية:
-    ```bash
+```bash
 NEXT_PUBLIC_SUPABASE_URL=https://anskmlapveutjxkikzql.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFuc2ttbGFwdmV1dGp4a2lrenFsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY3OTQ3MjUsImV4cCI6MjA2MjM3MDcyNX0.mQl3f_fmtCoCxZ4cPJpbpkZCNr0HfLCHpmBg4lBBmbg
 SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFuc2ttbGFwdmV1dGp4a2lrenFsIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0Njc5NDcyNSwiZXhwIjoyMDYyMzcwNzI1fQ.1gOXj58Yqc1dT3cVeSNTeQj2YyZFGSYG1hg1GFQPEOM
-   ```
+```
 4. إعداد قاعدة البيانات:
    قم بتشغيل النصوص البرمجية SQL الموجودة في مجلد `database` لإنشاء الجداول والوظائف اللازمة.
 
